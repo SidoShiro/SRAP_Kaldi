@@ -24,4 +24,19 @@ make clean -j 8
 echo "Make -j"
 make -j 8
 
+echo "Link srlim to 'kaldi/tools'"
+ln -s ../../srlim-1.7.3.tar.gz srilm.tgz
+
+echo "Install srlim"
+./install_srilm.sh
+
+echo "Install pocolm"
+./extras/install_pocolm.sh
+
+echo "Installation de Kaldi"
+cd ../src/
+./configure --shared --mathlib=ATLAS # --use-cuda
+make clean
+make depend -j 8
+make -j 8
 
