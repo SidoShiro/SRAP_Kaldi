@@ -29,8 +29,8 @@ sed -i "s/^\(.*export train_cmd=\).*$/\1\"run.pl --max-jobs-run $MAX_JOBS_TRAIN\
 echo 'sed -i "s/^\(.*export decode_cmd=\).*$/\1\"run.pl --max-jobs-run $MAX_JOBS_DECODE\"/g" en_receipe/cmd.sh'
 sed -i "s/^\(.*export decode_cmd=\).*$/\1\"run.pl --max-jobs-run $MAX_JOBS_DECODE\"/g" en_receipe/cmd.sh
 
-echo 'tail -n 5 en_receipe/path.sh > en_receipe/path.sh'
-tail -n 5 en_receipe/path.sh > en_receipe/path.sh
+echo 'd -i "s/^\(export KALDI_ROOT.*\)$/#\1/g" en_receipe/path.sh'
+sed -i 's/^\(export KALDI_ROOT.*\)$/#\1/g' en_receipe/path.sh
 
 echo 'mkdir -p lesLogs/train'
 mkdir -p lesLogs/train
