@@ -63,6 +63,6 @@ On system install (not docker)
 
 > Most of the work comes from the [kaldi repository](https://github.com/kaldi-asr/kaldi)
 
-* Itectori
-* SidoShiro
+* [Itectori](https://github.com/itectori)
+* [SidoShiro](https://github.com/SidoShiro)
 
