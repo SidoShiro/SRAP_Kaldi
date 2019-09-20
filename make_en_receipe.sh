@@ -3,8 +3,6 @@
 MAX_JOBS_TRAIN=4
 MAX_JOBS_DECODE=2
 
-rm -rf en_receipe/
-
 if [ $# -gt 0 ]; then
     MAX_JOBS_TRAIN=$1
     shift
