@@ -1,7 +1,7 @@
 #! /bin/sh
 
-MAX_JOBS_TRAIN=2
-MAX_JOBS_DECODE=1
+MAX_JOBS_TRAIN=4
+MAX_JOBS_DECODE=2
 
 rm -rf en_receipe/
 
