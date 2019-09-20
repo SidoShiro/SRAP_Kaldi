@@ -1,6 +1,12 @@
 # README - Kaldi SRAP SandBox Project
 
-## Install with Docker
+## Install
+
+Check requirements before installation.
+
+### Install with Docker
+
+Run
 
 ```sh
 ./build_docker.sh
@@ -8,10 +14,8 @@
 ./run_docker.sh
 ```
 
-## Install without Docker
+### Install without Docker
 
-
-Download srilm-1.7.3.tar.gz 
 
 Run
 
@@ -19,8 +23,24 @@ Run
 ./new_install.sh
 ```
 
+#### Requirements
 
-## Receipes
+General Requirements
+
+* Linux/OS X
+* srlim-1.7.3.tar.gz from [SRLIM](http://www.speech.sri.com/projects/srilm/download.html)
+* docker (if you want to use Docker)
+
+On system install (not docker)
+
+* Atlas
+* gcc
+* cmake
+* bash
+* libfst-tools
+* ...
+
+## Receipes and Usage
 
 * English Receipe
 
