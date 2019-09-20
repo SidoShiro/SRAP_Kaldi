@@ -21,6 +21,7 @@ RUN apt-get update && \
         ca-certificates \
         patch \
         ffmpeg \
+        libfst-tools \
 	vim && \
     rm -rf /var/lib/apt/lists/*
 
@@ -36,11 +37,12 @@ RUN git clone --depth 1 https://github.com/kaldi-asr/kaldi.git /opt/kaldi && \
     make depend -j $(nproc) && \
     make -j $(nproc)
 
-COPY srilm-1.7.3.tar.gz /opt
+COPY srilm-1.7.3.tar.gz /opt/
+COPY make_en_receipe.sh /opt/
+COPY train_en_receipe.sh /opt/
+COPY new_install_kaldi_tools.sh /opt/
 
-RUN git clone --depth 1 https://github.com/SidoShiro/SRAP_Kaldi /opt/srap_kaldi && \
-    cp -r /opt/srap_kaldi/* /opt/ && \
-    cd /opt && \
+RUN cd /opt && \
     ./new_install_kaldi_tools.sh
 
 WORKDIR /opt
