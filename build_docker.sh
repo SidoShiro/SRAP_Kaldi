@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo docker build --tag kaldiasr/kaldi:latest .
+sudo docker build --tag td_kaldi:latest .
