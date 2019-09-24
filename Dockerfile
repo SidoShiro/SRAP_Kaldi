@@ -1,4 +1,4 @@
-FROM 10.1-slim 
+FROM debian:9-slim 
 LABEL maintainer="marc@sidorenko.fr"
 
 RUN apt-get update && \
