@@ -65,6 +65,24 @@ On system install (not docker)
 ./train_fr_receipe.sh
 ```
 
+# TF-IDF
+
+Concerne le dossier tfidf
+
+le script TFIDF.perl [fichier-tf-mot] [list de fichier avec mots du voc]
+
+* fichier-tf-mots, tel que:
+  * 234 you
+  * 3232 is
+  * ...
+
+
+> Require perl
+
+```sh
+perl TFIDF.perl mots document
+```
+
 ## Authors
 
 > Most of the work comes from the [kaldi repository](https://github.com/kaldi-asr/kaldi)
