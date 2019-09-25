@@ -1,0 +1,19 @@
+%WER 62.3 | 533 5592 | 42.2 33.7 24.1 4.5 62.3 94.6 | -0.636 | exp/tri1/decode_nosp_dev/score_10_0.0/ctm.filt.filt.sys
+%WER 62.2 | 533 5592 | 41.6 31.3 27.2 3.8 62.2 94.6 | -0.555 | exp/tri1/decode_nosp_dev_rescore/score_11_0.0/ctm.filt.filt.sys
+%WER 67.0 | 629 5333 | 37.9 27.8 34.3 4.9 67.0 84.7 | -0.493 | exp/tri1/decode_nosp_test/score_11_0.0/ctm.filt.filt.sys
+%WER 67.1 | 629 5333 | 37.8 28.0 34.2 4.8 67.1 84.6 | -0.498 | exp/tri1/decode_nosp_test_rescore/score_11_0.0/ctm.filt.filt.sys
+%WER 58.2 | 533 5592 | 47.6 31.2 21.2 5.8 58.2 93.4 | -0.711 | exp/tri2/decode_dev/score_12_0.0/ctm.filt.filt.sys
+%WER 58.2 | 533 5592 | 47.6 31.2 21.3 5.8 58.2 93.4 | -0.716 | exp/tri2/decode_dev_rescore/score_12_0.0/ctm.filt.filt.sys
+%WER 59.0 | 533 5592 | 45.4 30.4 24.2 4.4 59.0 93.6 | -0.683 | exp/tri2/decode_nosp_dev/score_12_0.0/ctm.filt.filt.sys
+%WER 59.0 | 533 5592 | 45.5 30.3 24.2 4.5 59.0 93.6 | -0.676 | exp/tri2/decode_nosp_dev_rescore/score_12_0.0/ctm.filt.filt.sys
+%WER 63.2 | 629 5333 | 43.1 29.2 27.6 6.4 63.2 84.4 | -0.770 | exp/tri2/decode_nosp_test/score_11_0.0/ctm.filt.filt.sys
+%WER 63.2 | 629 5333 | 43.1 29.3 27.5 6.4 63.2 84.4 | -0.771 | exp/tri2/decode_nosp_test_rescore/score_11_0.0/ctm.filt.filt.sys
+%WER 61.6 | 629 5333 | 46.2 29.6 24.2 7.8 61.6 85.2 | -0.845 | exp/tri2/decode_test/score_11_0.0/ctm.filt.filt.sys
+%WER 61.7 | 629 5333 | 46.1 29.7 24.2 7.8 61.7 85.2 | -0.821 | exp/tri2/decode_test_rescore/score_11_0.0/ctm.filt.filt.sys
+%WER 56.6 | 533 5592 | 47.6 25.7 26.6 4.3 56.6 92.1 | -0.951 | exp/tri3/decode_dev/score_15_0.0/ctm.filt.filt.sys
+%WER 57.7 | 533 5592 | 47.5 27.7 24.8 5.2 57.7 92.5 | -0.934 | exp/tri3/decode_dev.si/score_14_0.0/ctm.filt.filt.sys
+%WER 56.7 | 533 5592 | 48.1 27.4 24.5 4.8 56.7 92.1 | -0.921 | exp/tri3/decode_dev_rescore/score_14_0.0/ctm.filt.filt.sys
+%WER 57.7 | 629 5333 | 49.8 28.9 21.3 7.5 57.7 83.9 | -1.021 | exp/tri3/decode_test/score_12_0.0/ctm.filt.filt.sys
+%WER 60.0 | 629 5333 | 47.1 30.3 22.6 7.1 60.0 84.1 | -1.024 | exp/tri3/decode_test.si/score_12_0.0/ctm.filt.filt.sys
+%WER 57.6 | 629 5333 | 48.7 26.2 25.1 6.3 57.6 83.0 | -0.960 | exp/tri3/decode_test_rescore/score_14_0.0/ctm.filt.filt.sys
+
