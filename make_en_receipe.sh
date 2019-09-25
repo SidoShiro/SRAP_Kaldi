@@ -1,7 +1,7 @@
 #! /bin/sh
 
-MAX_JOBS_TRAIN=4
-MAX_JOBS_DECODE=2
+MAX_JOBS_TRAIN=8
+MAX_JOBS_DECODE=6
 
 if [ $# -gt 0 ]; then
     MAX_JOBS_TRAIN=$1
