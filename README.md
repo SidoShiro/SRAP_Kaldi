@@ -53,6 +53,10 @@ On system install (not docker)
 
 * French Receipe
 
+> Download fr audio data
+> 'scp -i ~/.ssh/rsa_kaldi etudiant@tdkaldi.hopto.org:/home/Partage/CorpusDecoda/wav/* fr_receipe/wav/'
+> 'scp -i ~/.ssh/rsa_kaldi etudiant@tdkaldi.hopto.org:/home/Partage/CorpusDecoda/stem/* fr_receipe/stem/'
+
 ```sh
 ./make_fr_receipe.sh
 
