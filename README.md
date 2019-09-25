@@ -57,6 +57,8 @@ On system install (not docker)
 > 'scp -i ~/.ssh/rsa_kaldi etudiant@tdkaldi.hopto.org:/home/Partage/CorpusDecoda/wav/* fr_receipe/wav/'
 > 'scp -i ~/.ssh/rsa_kaldi etudiant@tdkaldi.hopto.org:/home/Partage/CorpusDecoda/stem/* fr_receipe/stem/'
 
+* Use **fix.sh** after a run.sh to fix prune_small bug of stage 4
+
 ```sh
 ./make_fr_receipe.sh
 
