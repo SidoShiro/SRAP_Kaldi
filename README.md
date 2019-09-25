@@ -1,5 +1,13 @@
 # README - Kaldi SRAP SandBox Project
 
+## Content
+
+1. [Kaldi Receipes](#kaldi-receipes)
+2. [TF-IDF](#tfidf)
+3. [Word Clouds](#wordclouds)
+
+# Kaldi Receipes  <a name="kaldi-receipes"></a>
+
 ## Install
 
 Check requirements before installation.
@@ -65,7 +73,7 @@ On system install (not docker)
 ./train_fr_receipe.sh
 ```
 
-# TF-IDF
+# TF-IDF  <a name="tfidf"></a>
 
 Concerne le dossier tfidf
 
@@ -83,7 +91,13 @@ le script TFIDF.perl [fichier-tf-mot] [list de fichier avec mots du voc]
 perl TFIDF.perl mots document
 ```
 
-## Authors
+# Word Clouds (Nuage de Mots) <a name="wordclouds"></a>
+
+
+TODO
+
+
+### Authors
 
 > Most of the work comes from the [kaldi repository](https://github.com/kaldi-asr/kaldi)
 
