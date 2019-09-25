@@ -21,10 +21,9 @@ RUN apt-get update && \
         patch \
         ffmpeg \
         libfst-tools \
+        python-numpy \
 	vim && \
     rm -rf /var/lib/apt/lists/*
-
-RUN ln -s /usr/bin/python2.7 /usr/bin/python 
 
 RUN git clone --depth 1 https://github.com/kaldi-asr/kaldi.git /opt/kaldi && \
     cd /opt/kaldi && \
@@ -40,9 +39,13 @@ COPY srilm-1.7.3.tar.gz /opt/
 COPY make_en_receipe.sh /opt/
 COPY train_en_receipe.sh /opt/
 COPY new_install_kaldi_tools.sh /opt/
+COPY fr_receipe /opt/fr_receipe/
 
 RUN cd /opt && \
     ./new_install_kaldi_tools.sh
+
+
+ENV KALDI_ROOT="/opt/kaldi/"
 
 WORKDIR /opt
 
