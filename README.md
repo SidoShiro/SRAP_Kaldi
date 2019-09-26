@@ -118,6 +118,15 @@ perl TFIDF.perl words document
 
 ![WordCloudFR](tfidf/wordcloud_FR.jpg)
 
+* Word Cloud of CTM (English)
+
+> require ../exp/  (from english training) 
+
+```sh
+./MegaSciptCTMToTF.sh
+```
+
+![WordCloudEN](tfidf/wordcloud_CTM.jpg)
 
 ### Authors
 
