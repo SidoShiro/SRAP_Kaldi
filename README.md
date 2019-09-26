@@ -81,7 +81,8 @@ On system install (not docker)
 
 ```sh
 #  Compute tf_file
-perl CompterDocumentsV2.pl [list of files] > tf_file
+./MegaScriptToTF.sh
+# Result stored in tf_results
 
 #  Fix tf_file: sort, remove stop words, keep 1000 after the 250 most common words
 # TODO
