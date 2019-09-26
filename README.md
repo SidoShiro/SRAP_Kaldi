@@ -75,11 +75,21 @@ On system install (not docker)
 
 # TF-IDF  <a name="tfidf"></a>
 
-Concerne le dossier tfidf
+> Everything you need is in tfidf folder
 
-le script TFIDF.perl [fichier-tf-mot] [list de fichier avec mots du voc]
+* Create the TF file (Words Time-Frequency)
 
-* fichier-tf-mots, tel que:
+```sh
+#  Compute tf_file
+perl CompterDocumentsV2.pl [list of files] > tf_file
+
+#  Fix tf_file: sort, remove stop words, keep 1000 after the 250 most common words
+# TODO
+```
+
+* script TFIDF.perl [file-tf-words] [list of files with words]
+
+* file-tf-words, as:
   * 234 you
   * 3232 is
   * ...
@@ -88,7 +98,7 @@ le script TFIDF.perl [fichier-tf-mot] [list de fichier avec mots du voc]
 > Require perl
 
 ```sh
-perl TFIDF.perl mots document
+perl TFIDF.perl words document
 ```
 
 # Word Clouds (Nuage de Mots) <a name="wordclouds"></a>
