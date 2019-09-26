@@ -104,8 +104,19 @@ perl TFIDF.perl words document
 
 # Word Clouds (Nuage de Mots) <a name="wordclouds"></a>
 
+* Need TF file use *MegaScriptToTF.sh*
 
-TODO
+```sh
+./MakeWordCloud.sh
+```
+
+* Use the website [Word Cloud](https://www.wordclouds.com/)
+
+* Save the image !
+
+> tfidf/wordcloud_FR.jpg already exist
+
+![WordCloudFR](tfidf/wordcloud_FR.jpg)
 
 
 ### Authors
