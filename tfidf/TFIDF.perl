@@ -12,7 +12,7 @@ my %vocab;
 open VOCAB,$ARGV[0] or die "pas ouvert $ARGV[0]\n";
 shift ;
 
-print "Parse VOCAB\n";
+print STDERR  "Parse VOCAB\n";
 
 while (my $line = <VOCAB>) {
     my @words = split ' ', $line;
@@ -20,21 +20,21 @@ while (my $line = <VOCAB>) {
     my $mot = $words[1];
     # chomp;
     # my ($mot,$idf)=/(\S+)\s+(\S+)/;
-    print "MOT : $mot IDF : $idf\n";
+    # print "MOT : $mot IDF : $idf\n";
     $vocab{$mot}=$idf;
 }
 
 #on relit et on a l'Idf
 
-print "Sort VOCAB\n";
+print STDERR "Sort VOCAB\n";
 
 my @vocab=sort {$vocab{$a} <=> $vocab{$b}} keys %vocab;
 my $docu="";
 my %tf;
 #tri pour avoir toujours le même ordre donc tableau
 
-print "Normalise and etc... \n";
-print "Docu : $docu\n";
+print STDERR "Normalise and etc... \n";
+print STDERR "Docu : $docu\n";
 
 while (<>) {
   chomp;
